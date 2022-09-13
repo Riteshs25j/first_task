@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bank of Spark Foundation</title>
+</head>
+<body>
+    <section class="header" >
+        <nav>
+            <a href="index.html"> <img src="img/logo.png"class="img-logo"></a>
+            <div class="img-logo">
+                <strong>The Spark Foundation</strong>
+                <br>
+                <span>...Inspiring, Innovating, Integrating</span>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+
+ <div class="text-box">
+     <h1>Bank of Spark Foundation</h1>
+     <p>
+        Bank of spark Foundation Bank Limited is an Indian banking and financial services company headquartered in Mumbai, India. It offers banking products and financial services for corporate and retail customers in the areas of personal finance, investment banking, life insurance, and wealth management.
+     </p>
+     <a href="" class="hero-btn" >Visit Us To Know More</a>
+ </div>
+
+</section>
+
+<!-- services -->
+
+<section class="course">
+    <h1>What Services We offers</h1>
+    <p>
+        "To give real service you must add something which cannot be bought or measured with money, and that is sincerity and integrity."
+    </p>
+    <div class="row">
+        <div class="course-col">
+            <h3>View customers</h3>
+            <p>
+                Check out the customer details, and carry out transactions between them.
+            </p>
+
+            <a href="http://localhost:3000/index.php" class="hero-btn1">View customers</a>
+        </div>
+            <div class="course-col">
+                <h3>Send money</h3>
+                <p>
+                    Wealth consists not in having great possessions, but in having few wants.
+                </p>
+                <a href="http://localhost:3000/transfer.php" class="hero-btn1">Transfer money</a>
+            </div>
+                <div class="course-col">
+                    <h3>Transfers Records</h3>
+                    <p>
+                    When money realizes that it is in good hands, it  multiply in those hands.
+                    </p>
+                    <a href="http://localhost:3000/transactions.php" class="hero-btn1">Transfer Records</a>
+                </div>	
+		</div>
+     </div>
+</section>
+
+<!-- contact us -->
+
+<section class="cta">
+    <h1>Access our bank facilities from<br> anywhere in the world #GRIP</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a> 
+</section>
+
+<!-- footer -->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>
+        A bank is a financial institution that accepts deposits from the <br>public and creates a demand deposit while simultaneously making loans.
+    </p>
+
+    <div class="icons">
+        <a href="https:linkedin.com/in/ritesh-gore-1020b9174" i class="fa fa-github" ></a>
+        <a href="https:linkedin.com/in/ritesh-gore-1020b9174" i class="fa fa-linkedin-square"></a>
+        <a href="https://twitter.com/RiteshRameshGo1?t=wnNSGqsYUG_50D1oJYYQyA&s=08" i class="fa fa-twitter-square"></a>
+        <a href="https://www.instagram.com/invites/contact/?i=3p9dj5039sqi&utm_content=2ntlx5u" i class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/ritesh.gore.900" i class="fa fa-facebook-square"></a>
+    </div>
+    <p>made by <i class="fa fa-heart-o"></i>Ritesh Gore</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+         }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+         }
+
+    </script>
+
+
+</body>
+</html>
